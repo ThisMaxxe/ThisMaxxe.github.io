@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
-    <title>Password Protected Page</title>
+    <title>Classes</title>
+    <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/classroom/favicon.png">
     <style>
         html, body {
             margin: 0;
@@ -118,7 +119,7 @@
     <div id="dialogWrap">
         <div id="dialogWrapCell">
             <div id="mainDialog">
-                <div id="dialogText">This page is password protected.</div>
+                <div id="dialogText">Please Enter the Password.</div>
                 <div id="passArea">
                     <p id="passwordPrompt">Password</p>
                     <input id="pass" type="password" name="pass" autofocus>
@@ -147,12 +148,11 @@
         </div>
     </div>
     <div id="attribution">
-        Protected by <a href="https://www.maxlaumeister.com/pagecrypt/">PageCrypt</a>
     </div>
     <script>
     (function() {
 
-        var pl = "B18rz0JDh69nNvG/gU/JtnsiGQRqJjlYepu99KnwAwUKLp4/L3JwkbQxBkPvfvmROZT1TDzsZtSj6/NSBm4A6vE31IPD4hkhNgHzIZmXfiTYzJV0dvfRaIL/iRomjn08HxpJazCJ1vgoiFosVQPTJzmIH2SRQvqOyvrsEpu3Owaho+waKo6dG+yx3kBPVMvuy+pglwt4IVMhFSBdXZRal9Wx/2pMfz56cgeLIkb+KP4yTkaAkTmHMO32LgR0h2LsMpEaYLgWazLZQIpUSgWxKmJikVUKhQmNA4KK9YS+bOP9WS1vm2mmLDlcEYyMawpb8OKglk4AKeXMDBFqZiHUg2GBMn1cSnDE0vq3XqiolnzrWb/2777pCLhF6LQjpRVeiF0F3oSdq+o0gq8ZR7eyg4zPkzzwn1xnND93mBz1SCHW29CKCNbP+UuZK+gSOMRaFkdyajnjL/4GRsJ4IVNlu8hvAvwH4w4Y4NBxkmk2MFRtp12kjo2XKzqHJaYUe7fhTVbcQr8s8FArLmLk6vFCG0H4YlfduBImNPbnqQKRHRS+mT7LhWmXk4pca9qQjThm5WmC8PjKXZZxil0priwursrp9Dy2V5w7vbyB5GKRp41+t7cWAwYloEP84rvB0C4O8Qf/kUUuYfrKmGQXuJIjZyXK8kEvT5Jub83AATqSPhKqhAizwO6MNzoh/pWR6qyx1p7vxufFFAufY82CqTK/W1cT6CgTIpXrxcUjYXQt1YhIIlMpYeHV6RWW4MAZUHV62b9ukr/gvH8eJe19dTpztDBg/+Jy4ztH34co0T6/KvBCGhcROxBVuAPlVWYz8keDumdyyVuhRx9NhDVfsR37Tl3jnWoa/3V4wPU6f3J9ZIF37+T8/Naz/QEzTgbHCWre/16phvQxyJJO1FLWOZPL3Wt6P/yMCA9qh8ooQw74ILBYNxpK/FBWMgbo4DLebFFGTZ8xtPK+2hMUXlOeRovV5MqxrXnpQwS05itWdwsB6v4GZZFcZIuvkqSg/Ws0Y/wKx2iT3IIywgqLSeVDWw2efMwZ2NGCnvtyNfzKc85jtXxIakW0rWvlL87UkPo=";
+        var pl = "z0ZtZ1E9hHMdvb1VqB15S5TYZW40edEwATr8pXOXps7M/3MssXN6+iQNCOGmgxFpdffY3QTWdoAdl9raCVaaKPW8TW1OqHPumfeE+ZK9tTYglxXNcejnWEkdO9fXAaGHIAAahuMFiytFD1joWfBi7rtEADlzDRz4CEArCQpw9vAWeb/pT0++jRKebgblwzBQIt287dy8q1ywud0tOVKf35LOQmbGB2+sWdUo8WhrwAqIB1HJphKEmw3JWg7gU+/Gm4R92b6e743qsg/bsGvYRg1vvUlQbLDqZuNAsiLztGo5T16O7PbsxV0j738q9uTnHMcBN7k258YexLPP1QhemNOIqJtNxiNX0iIHeleal8/ul8ZmwcFb1BxDKoc9RUHM3VrOcJbKPZ/y+AAtOAykHnV8BwOMULjRuc80lwDQI4f0kwhJX+VfHeSGMETdOxCNu+XsOIpsRcKtK7Riu+gDamv+NmXG18Hud6vrLt5GX6Js8PPGUfwcqu1tyJSAnsU/AZPsz11vhU1+iFtCYFhV0lY6Hk73vulyFDmxBtMVSlAUoKEPnOY3q2rnekP0KNVWD3DgYvHpkB+Wfp2JM4t/4ccTYvbTRwS39Ac3dk6n8InYmZ5YVF535bPLvkI5rpgorBagggzgaP2Ge1y6UZMKYUZFiuhOIt6+6AAVwmN+ygG6T1OrGRT9pwHn1RihRv8fyd80xpvdWGaR6/lFViAtdS8tQXJWp7veYaxD28zKqISGs+hZ7N390AtXMQQWajvgz0u8MqX+/8sOOlD4F5LIdvWdS7irXUt8imp/inPMtgFa5aIRGb5R5c+jUF3RM+Qi6ViPzYStzj9FUBunSv1wocYen7oax1M9GyXbk4gxWrr76bB30V2H8kmpeori1oAeoqsReCWhTE+6zsiLdUGjggnOFmCw1HDFmDpa10E4x8wIfOru552gTiICTj/ncmPP3IDtr7ggS7+WET0YVTerDCGQmLsXAWRxiKsGQcvUx7j3TALCmS6Ac/ej7cnaIA17J6f7YR+4c5nl1hwZRZ6KDujWZ6SsnIoiit9006ZIAePMtPBxsxoFrVbBv4VOPReSSjQV2OkJ+W7fvJkeiaPfCV1jBa9nQuiMRGIOldVXjKmGmRyHqZYqzKOlptpGebgolDtXz0Nd7Y3e1le22WjTFZCQup/cFL3iOG44Kmu68qaPOktXYnYGLWhJ9jHCStjTOCN5ewuG4kMObQ2/fx/KFj2WcoVDjiadRkkZsgHjeOU9cLixuQ3ZiHJ3ghs8vprqltV+K2zIHh4S0RVdS3BJ6zMpdsNFXxNWQ8g/rRryagnrOs/5LbbUWlPQGKzkpWOhmf0FImwdwwrEFtqEdU72n/NB7L3o52lTv7F8QDl2YfUJrkrkFqTBjp7t8kon07PwkEQQxxNV1B9Qjef+cT387uS5w2bBA+gpgcR58MwjJ1cMBqk996P2OhtepExNySy8Ddoihjk8Pidx8dBzykRKfugCydx03MuzSjhBGEHwmxJP6Q1M28bzziu7wtcRq9Jf62aoJO+V7zHOPVJKJ2s9/FlNZDnmNLe5KRhmEhJKoxlee9myNTBwudPPZKxVKYPM1RifsUlS1jkpWj6vawQlsnEH4j7kPC52KDSQ6nuI6x0QOIbGhCGUjXYz2W+GPbT6S+sl90h7zDGbM8JfM87gVRi1dAwcGmvj6R8lg+uqcBAnnQ3ADjzFMYshMD8AoYOH9ohsKjDCPjZ2weMX/fgPgMAO+xm6knZyl/KZjyEW9oN45/DuePFTHK8dWcM2Rw0teRPFGrFRzc2hCYxIHDLfi7FoLnXr5jJtzPwDsK4wtB48NHC1MgBw3n8CYBW4MqMg7xfCC1cJaYuGqX6F6X8T3hYrb+Af8I4sUCguDvNklDnHTOyFgApktwRGqdntmFSrGAPKtT9O1TV05qo61UqlNu4UgnhpG1HRR9ffQ3jtlkScjE3QIgKItrHZu9hxZH+Vy4V6GQ4xRxAXRD8EUnx69v3cs+obyeI9MwLnnNcb+OYBqDDFbS/37DHll2HaaJdrjgp0FQaXwdhl8mCK+8kyR2Zjr0Jkg+c7BvkZH86PArH7IMkTsViaZ3ZKYF9x3FmqZUvimOGu8/NTBWnw5625NOjTrZfwO09kvjGUwVOWK0BbfiKx79ZNuTa/o6k=";
         
         var submitPass = document.getElementById('submitPass');
         var passEl = document.getElementById('pass');
